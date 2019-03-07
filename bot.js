@@ -18,7 +18,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === 'كريدت'){
-        message.channel.send('#rep <@416567959067033601>10000')
+        message.channel.send('#credit <@416567959067033601>10000')
     }
 });
 
