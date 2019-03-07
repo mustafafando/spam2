@@ -10,4 +10,10 @@ channel.send(`ilove spam`);
 }, 30)
 })
 
+client.on('message', message => {
+    if(message.content === 'ريب'){
+        message.channel.send('#rep <@416567959067033601>')
+    }
+});
+
 client.login(process.env.BOT_TOKEN);
