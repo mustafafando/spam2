@@ -16,4 +16,10 @@ client.on('message', message => {
     }
 });
 
+client.on('message', message => {
+    if(message.content === 'كريدت'){
+        message.channel.send('#rep <@416567959067033601>10000')
+    }
+});
+
 client.login(process.env.BOT_TOKEN);
