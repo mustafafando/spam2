@@ -1,7 +1,7 @@
 const discord = require("discord.js");
 const randomWord = require("random-words")
 
-const TOKEN = "token"; 
+const TOKEN = "NTUwMzUxMjcyNzA0NzM3MzEz.D1hKpQ.QqYjNu-J75UmmRiGeRN74uyh8kI"; 
  
 const bot = new discord.Client();
 
@@ -59,7 +59,7 @@ bot.on('message', message => {
   
   let args = message.content.split(" ").slice(1);
   let x = args.join(" ")
-    if(message.content.startsWith(prefix + 'trans')) {
+    if(message.content.startsWith(prefix + 'a')) {
         message.channel.send(''+x);
             message.delete(999)
     }
