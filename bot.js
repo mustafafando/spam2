@@ -1,51 +1,6 @@
 const discord = require("discord.js");
-const randomWord = require("random-words")
-
-const TOKEN = "NTUwMzUxMjcyNzA0NzM3MzEz.D1hKpQ.QqYjNu-J75UmmRiGeRN74uyh8kI"; 
- 
+const TOKEN = "NTY2OTgyNTQzMTYxODE5MTUz.XLM6EA.mVfZWpZASw3qKKsATXKOvPisW7k";
 const bot = new discord.Client();
-
-var spam;
-
-var phrases = ["thing1","another one","keep adding more","there's no limit"];
-
-function startspam()
-{
-    console.log("Spam starting!")
-    var server = bot.guilds.get("548872104813264907");
-    var chan = new discord.TextChannel(server,{"id":"551125137911709706"});
-    spam = bot.setInterval(()=>
-    {
-        chan.send(randomWord()).then(msg=>{ // Sticking with randomwords.
-            console.log(msg.content);
-        });
- 
-    },1000);
-}
-
-function stopspam()
-{
-    bot.clearTimeout(spam);
-    console.log("Spam Stopped.")
-}
-
-bot.on("ready",()=>{
-    console.log("Ready!");
-})
-
-bot.on("message",msg=>{
-    if(msg.author.id == "416567959067033601")
-    {
-        if(msg.content.toLowerCase() == "=start")
-        {
-            startspam()
-        }
-        else if(msg.content.toLowerCase() == "=stop")
-        {
-            stopspam()
-        }
-    }
-})
 
 bot.on('message', message => {
     var prefix = "=";
@@ -59,7 +14,7 @@ bot.on('message', message => {
   
   let args = message.content.split(" ").slice(1);
   let x = args.join(" ")
-    if(message.content.startsWith(prefix + 'a1')) {
+    if(message.content.startsWith(prefix + 's')) {
         message.channel.send(''+x);
             message.delete(999)
     }
@@ -78,5 +33,6 @@ bot.on('message', message => {
         message.channel.send('#credits');
   }
 });
+
 
 bot.login(TOKEN);
