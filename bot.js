@@ -10,7 +10,7 @@ const j = new discord.Client();
 const k = new discord.Client();
 
 
-client.on('message', message => {
+bot.on('message', message => {
     var prefix = "=";
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
