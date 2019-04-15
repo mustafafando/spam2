@@ -15,8 +15,9 @@ bot.on('message', message => {
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
       var argresult = args.join(' ');
-      if (message.author.id == 416567959067033601) return;
-    if (message.content.startsWith(prefix + 'صوره')) {
+      if (message.author.id == '566992170293133332') return;
+
+    if (message.content.startsWith(prefix + 'image')) {
       client.user.setAvatar(argresult);
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
@@ -28,8 +29,9 @@ a.on('message', message => {
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
       var argresult = args.join(' ');
-      if (message.author.id == 416567959067033601) return;
-    if (message.content.startsWith(prefix + 'صوره')) {
+      if (message.author.id == '566993438298603532') return;
+
+    if (message.content.startsWith(prefix + 'image')) {
       client.user.setAvatar(argresult);
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
@@ -37,12 +39,13 @@ a.on('message', message => {
     });
 
 s.on('message', message => {
-    var prefix = "=";
+     var prefix = "=";
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
       var argresult = args.join(' ');
-      if (message.author.id == 416567959067033601) return;
-    if (message.content.startsWith(prefix + 'صوره')) {
+      if (message.author.id == '566995116854870026') return;
+
+    if (message.content.startsWith(prefix + 'image')) {
       client.user.setAvatar(argresult);
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
@@ -54,8 +57,9 @@ d.on('message', message => {
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
       var argresult = args.join(' ');
-      if (message.author.id == 416567959067033601) return;
-    if (message.content.startsWith(prefix + 'صوره')) {
+      if (message.author.id == '566992848658890754') return;
+
+    if (message.content.startsWith(prefix + 'image')) {
       client.user.setAvatar(argresult);
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
@@ -67,21 +71,22 @@ f.on('message', message => {
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
       var argresult = args.join(' ');
-      if (message.author.id == 416567959067033601) return;
-    if (message.content.startsWith(prefix + 'صوره')) {
+      if (message.author.id == '566986187059757086') return;
+
+    if (message.content.startsWith(prefix + 'image')) {
       client.user.setAvatar(argresult);
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
     }
     });
 
-g.on('message', message => {
-    var prefix = "=";
+ var prefix = "=";
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
       var argresult = args.join(' ');
-      if (message.author.id == 416567959067033601) return;
-    if (message.content.startsWith(prefix + 'صوره')) {
+      if (message.author.id == '566995813998264341') return;
+
+    if (message.content.startsWith(prefix + 'image')) {
       client.user.setAvatar(argresult);
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
@@ -93,8 +98,9 @@ h.on('message', message => {
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
       var argresult = args.join(' ');
-      if (message.author.id == 416567959067033601) return;
-    if (message.content.startsWith(prefix + 'صوره')) {
+      if (message.author.id == '566996464480419848') return;
+
+    if (message.content.startsWith(prefix + 'image')) {
       client.user.setAvatar(argresult);
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
@@ -102,25 +108,26 @@ h.on('message', message => {
     });
 
 j.on('message', message => {
-    var prefix = "=";
+     var prefix = "=";
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
       var argresult = args.join(' ');
-      if (message.author.id == 416567959067033601) return;
-    if (message.content.startsWith(prefix + 'صوره')) {
+      if (message.author.id == '566991556876435456') return;
+
+    if (message.content.startsWith(prefix + 'image')) {
       client.user.setAvatar(argresult);
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
     }
     });
-
 k.on('message', message => {
-    var prefix = "=";
+   var prefix = "=";
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
       var argresult = args.join(' ');
-      if (message.author.id == 416567959067033601) return;
-    if (message.content.startsWith(prefix + 'صوره')) {
+      if (message.author.id == '566982543161819153') return;
+
+    if (message.content.startsWith(prefix + 'image')) {
       client.user.setAvatar(argresult);
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
