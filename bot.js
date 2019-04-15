@@ -12,9 +12,12 @@ const k = new discord.Client();
 
 bot.on('message', message => {
     var prefix = "1";
-      if (!message.content.startsWith(prefix)) return;
-      var args = message.content.split(' ').slice(1);
-      var argresult = args.join(' ');
+ if (message.author.bot) return;
+    if (!message.content.startsWith(prefix)) return;
+    if (message.author.id !== "416567959067033601") return;
+  
+    let command = message.content.split(" ")[0];
+    command = command.slice(prefix.length);
       if (message.author.id == '566982543161819153') return;
     
     if (message.content.startsWith(prefix + 'p')) {
