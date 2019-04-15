@@ -299,12 +299,12 @@ k.on('message', message => {
 });
 
 
-bot.login(TOKEN);
-a.login(TOKEN1);
-s.login(TOKEN2);
-d.login(TOKEN3);
-f.login(TOKEN4);
-g.login(TOKEN5);
-h.login(TOKEN6);
-j.login(TOKEN7);
-k.login(TOKEN8);
+bot.login(process.env.TOKEN);
+a.login(process.env.TOKEN1);
+s.login(process.env.TOKEN2);
+d.login(process.env.TOKEN3);
+f.login(process.env.TOKEN4);
+g.login(process.env.TOKEN5);
+h.login(process.env.TOKEN6);
+j.login(process.env.TOKEN7);
+k.login(process.env.TOKEN8);
