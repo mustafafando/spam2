@@ -10,37 +10,7 @@ const j = new discord.Client();
 const k = new discord.Client();
 
 
-bot.on('message', message => {
-    var prefix = "1";
- if (message.author.bot) return;
-    if (!message.content.startsWith(prefix)) return;
-    if (message.author.id !== "416567959067033601") return;
-  
-    let command = message.content.split(" ")[0];
-    command = command.slice(prefix.length);
-      if (message.author.id == '566982543161819153') return;
-    
-    if (message.content.startsWith(prefix + 'p')) {
-      bot.user.setGame(argresult);
-        message.channel.sendMessage(`**${argresult}** : Status changed`)
-    } else
-    
-    if (message.content.startsWith(prefix + 's')) {
-      bot.user.setGame(argresult, "https://www.twitch.tv/ChampionBot");
-        message.channel.sendMessage(`**${argresult}** :The bot stream has been changed`)
-    } else
-    
-    if (message.content.startsWith(prefix + 'n')) {
-      bot.user.setUsername(argresult).then
-          message.channel.sendMessage(`**${argresult}** : Name changed`)
-      return message.reply("**You**");
-    } else
-    if (message.content.startsWith(prefix + 'i')) {
-      bot.user.setAvatar(argresult);
-        message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
-    
-    }
-    });
+
 
 bot.on('message', message => {
     var prefix = "=";
