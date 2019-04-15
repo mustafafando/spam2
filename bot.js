@@ -11,6 +11,124 @@ const k = new discord.Client();
 
 
 bot.on('message', message => {
+    var prefix = "!";
+      if (!message.content.startsWith(prefix)) return;
+      var args = message.content.split(' ').slice(1);
+      var argresult = args.join(' ');
+      if (message.author.id == 410052613996937217) return;
+    if (message.content.startsWith(prefix + 'صوره')) {
+      client.user.setAvatar(argresult);
+        message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
+    
+    }
+    });
+
+a.on('message', message => {
+    var prefix = "!";
+      if (!message.content.startsWith(prefix)) return;
+      var args = message.content.split(' ').slice(1);
+      var argresult = args.join(' ');
+      if (message.author.id == 410052613996937217) return;
+    if (message.content.startsWith(prefix + 'صوره')) {
+      client.user.setAvatar(argresult);
+        message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
+    
+    }
+    });
+
+s.on('message', message => {
+    var prefix = "!";
+      if (!message.content.startsWith(prefix)) return;
+      var args = message.content.split(' ').slice(1);
+      var argresult = args.join(' ');
+      if (message.author.id == 410052613996937217) return;
+    if (message.content.startsWith(prefix + 'صوره')) {
+      client.user.setAvatar(argresult);
+        message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
+    
+    }
+    });
+
+d.on('message', message => {
+    var prefix = "!";
+      if (!message.content.startsWith(prefix)) return;
+      var args = message.content.split(' ').slice(1);
+      var argresult = args.join(' ');
+      if (message.author.id == 410052613996937217) return;
+    if (message.content.startsWith(prefix + 'صوره')) {
+      client.user.setAvatar(argresult);
+        message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
+    
+    }
+    });
+
+f.on('message', message => {
+    var prefix = "!";
+      if (!message.content.startsWith(prefix)) return;
+      var args = message.content.split(' ').slice(1);
+      var argresult = args.join(' ');
+      if (message.author.id == 410052613996937217) return;
+    if (message.content.startsWith(prefix + 'صوره')) {
+      client.user.setAvatar(argresult);
+        message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
+    
+    }
+    });
+
+g.on('message', message => {
+    var prefix = "!";
+      if (!message.content.startsWith(prefix)) return;
+      var args = message.content.split(' ').slice(1);
+      var argresult = args.join(' ');
+      if (message.author.id == 410052613996937217) return;
+    if (message.content.startsWith(prefix + 'صوره')) {
+      client.user.setAvatar(argresult);
+        message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
+    
+    }
+    });
+
+h.on('message', message => {
+    var prefix = "!";
+      if (!message.content.startsWith(prefix)) return;
+      var args = message.content.split(' ').slice(1);
+      var argresult = args.join(' ');
+      if (message.author.id == 410052613996937217) return;
+    if (message.content.startsWith(prefix + 'صوره')) {
+      client.user.setAvatar(argresult);
+        message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
+    
+    }
+    });
+
+j.on('message', message => {
+    var prefix = "!";
+      if (!message.content.startsWith(prefix)) return;
+      var args = message.content.split(' ').slice(1);
+      var argresult = args.join(' ');
+      if (message.author.id == 410052613996937217) return;
+    if (message.content.startsWith(prefix + 'صوره')) {
+      client.user.setAvatar(argresult);
+        message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
+    
+    }
+    });
+
+k.on('message', message => {
+    var prefix = "!";
+      if (!message.content.startsWith(prefix)) return;
+      var args = message.content.split(' ').slice(1);
+      var argresult = args.join(' ');
+      if (message.author.id == 410052613996937217) return;
+    if (message.content.startsWith(prefix + 'صوره')) {
+      client.user.setAvatar(argresult);
+        message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
+    
+    }
+    });
+
+
+bot.on('message', message => {
     var prefix = "=";
     if (message.author.bot) return;
     if (!message.content.startsWith(prefix)) return;
