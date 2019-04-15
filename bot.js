@@ -18,22 +18,22 @@ bot.on('message', message => {
       if (message.author.id == '566993438298603532') return;
     
     if (message.content.startsWith(prefix + 'p')) {
-      client.user.setGame(argresult);
+      bot.user.setGame(argresult);
         message.channel.sendMessage(`**${argresult}** : Status changed`)
     } else
     
     if (message.content.startsWith(prefix + 's')) {
-      client.user.setGame(argresult, "https://www.twitch.tv/ChampionBot");
+      bot.user.setGame(argresult, "https://www.twitch.tv/ChampionBot");
         message.channel.sendMessage(`**${argresult}** :The bot stream has been changed`)
     } else
     
     if (message.content.startsWith(prefix + 'n')) {
-      client.user.setUsername(argresult).then
+      bot.user.setUsername(argresult).then
           message.channel.sendMessage(`**${argresult}** : Name changed`)
       return message.reply("**You**");
     } else
     if (message.content.startsWith(prefix + 'i')) {
-      client.user.setAvatar(argresult);
+      bot.user.setAvatar(argresult);
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
     }
