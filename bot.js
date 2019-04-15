@@ -15,7 +15,7 @@ bot.on('message', message => {
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
       var argresult = args.join(' ');
-      if (message.author.id == '566993438298603532') return;
+      if (message.author.id == '566982543161819153') return;
     
     if (message.content.startsWith(prefix + 'p')) {
       bot.user.setGame(argresult);
