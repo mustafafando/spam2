@@ -11,7 +11,7 @@ const k = new discord.Client();
 
 
 bot.on('message', message => {
-    var prefix = "=";
+    var prefix = "1";
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
       var argresult = args.join(' ');
