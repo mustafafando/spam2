@@ -22,6 +22,7 @@ bot.on('message', message => {
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
     
+     }
     });
 
 a.on('message', message => {
@@ -36,6 +37,7 @@ a.on('message', message => {
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
     
+     }
     });
 
 s.on('message', message => {
@@ -50,6 +52,7 @@ s.on('message', message => {
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
     
+     }
     });
 
 d.on('message', message => {
@@ -64,6 +67,7 @@ d.on('message', message => {
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
     
+     }
     });
 
 f.on('message', message => {
@@ -78,6 +82,7 @@ f.on('message', message => {
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
     
+    }
     });
 
  var prefix = "=";
@@ -91,6 +96,7 @@ f.on('message', message => {
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
     
+     }
     });
 
 h.on('message', message => {
@@ -105,6 +111,7 @@ h.on('message', message => {
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
     
+     }
     });
 
 j.on('message', message => {
@@ -119,7 +126,9 @@ j.on('message', message => {
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
     
+     }
     });
+
 k.on('message', message => {
    var prefix = "=";
       if (!message.content.startsWith(prefix)) return;
@@ -132,6 +141,7 @@ k.on('message', message => {
         message.channel.sendMessage(`**${argresult}** : The bot image has been changed`);
     
     
+     }
     });
 
 
